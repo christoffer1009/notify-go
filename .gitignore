@@ -1,0 +1,40 @@
+# Binários
+/bin/
+/release/
+
+# Arquivos de configuração específicos do sistema operacional
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Arquivos de log
+logs/
+
+# Arquivos temporários
+*.out
+*.pid
+*.exe
+
+# Cache e diretório de módulos
+/go.sum
+/go.mod
+/vendor/
+
+# Executáveis compilados
+*.test
+*.prof
+*.exe
+*.out
+
+# Dependências
+/vendor/
+/Godeps/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração
+/config.json
+/app.config
